@@ -1,0 +1,7 @@
+CREATE TABLE image(
+	id		serial PRIMARY KEY
+	image_tag	VARCHAR (300),
+	tmb_image_tag	VARCHAR (300), 
+	lat		FLOAT,
+	long		FLOAT
+);
